@@ -6,22 +6,33 @@
 
 **어떠한 데이터셋와 도구 및 기술을 사용했는지에 대한 설명과 엔드유저에게 보이는 웹서비스에 대한 소개**
 
-  - 사용하려는 데이터(제안된 데이터 중 하나 또는 선택한 다른 데이터 세트)를 명시, 이에 대한 설명
-  - 기술 스택 (python, d3, pandas, jupyter, javascript, MySQL 등)
-  - 사용된 라이브러리 (numpy, matplotlib, wordcloud 등)
+  - 사용하려는 데이터 : TED 강연 데이터
+  - 기술 스택 : Python, React, Node.js
+  - 사용된 라이브러리
+    - front-end : mui, react-link-preview, styled-components, Axios
+    - back-end : express, jwt, swagger
+    - data analysis : pandas, numpy
   - 웹서비스에 대한 자세한 개요
+    - 유저가 1일 1 TED 강연을 보도록 도와주기 위한 서비스
+    - 출석, 강연 시청을 통해 얻을 수 있는 솜(경험치)를 통해 자신의 곰 인형을 성장시켜 게임적인 요소로 사용자의 TED 강의 시청 동기 생성
+    - 잔디 기능으로 사용자의 시청 기록, 꾸준함을 보여줌
+    - 사용자가 좋아하는 토픽, 시청 기록, 좋아요, 찜 기능을 통해 사용자에게 영상 서비스를 추천
+
 ### 사용한 데이터 <hr>
 * [TED 강연 데이터](https://www.kaggle.com/datasets/ashishjangra27/ted-talks)
 * [TED 강연 데이터 (한글화)](https://www.kaggle.com/datasets/miguelcorraljr/ted-ultimate-dataset)
 
 ### 기술 스택 <hr>
-* 어떤 기술을 쓰게 될까요~
+* front-end : React, styled-components, Axios
+* back-end : express, jwt, swagger
+* data analysis : pandas, numpy
 
 
 ## 2. 프로젝트 목표
 
 **데이터 분석 결과로 도출되는 인사이트와 웹서비스의 해결과제에 대한 논의 (50자 이상)**
   - 프로젝트 아이디어 동기
+    - TED에는 다양한 분야에 관련된 영상이 존재하며, 자신과 관련된 분야 또는 그 외의 분야의 내용에 대한 교양지식을 쌓을 수 있습니다. TED 영상을 통해 다양한 교양 지식을 쌓을 수 있도록 도와주는 목표
   - 문제를 해결하기 위한 특정 질문 명시
   - 데이터를 통해 탐색하려는 문제를 구체적으로 작성
 
@@ -29,8 +40,10 @@
 ## 3. 프로젝트 기능 설명
 
 **웹서비스의 유용성, 편의성 및 시각화의 실용성에 대한 설명**
-  - 주요 기능 (주된 활용성) 및 서브 기능
-  - 프로젝트만의 차별점, 기대 효과
+  - 주요 기능
+    - 영상 추천, 잔디, 곰 인형 성장, 시청 기록, 영상 시청 이동 및 설명
+  - 서브 기능
+    - 로그인, 회원가입, 차트, 썸네일 가져오기, 좋아요, 찜, 댓글, 대댓글
 
 ## 4. 프로젝트 구성도
   - 와이어프레임/스토리보드 추가
